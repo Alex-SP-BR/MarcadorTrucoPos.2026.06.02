@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvEquipe1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Equipe 1" />
+
+        <TextView
+            android:id="@+id/tvPontosEquipe1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="24sp"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btEquipe1Mais1"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:text="+1" />
+
+            <Button
+                android:id="@+id/btEquipe1Mais3"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:text="+3" />
+
+            <Button
+                android:id="@+id/btEquipe1Mais6"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:text="+6" />
+
+            <Button
+                android:id="@+id/btEquipe1Mais9"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:text="+9" />
+
+            <Button
+                android:id="@+id/btEquipe1Mais12"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:text="+12" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvEquipe2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Equipe 2"/>
+
+        <TextView
+            android:id="@+id/tvPontosEquipe2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="24sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btEquipe2Mais1"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:text="+1"/>
+
+            <Button
+                android:id="@+id/btEquipe2Mais3"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:text="+3" />
+
+            <Button
+                android:id="@+id/btEquipe2Mais6"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:text="+6" />
+
+            <Button
+                android:id="@+id/btEquipe2Mais9"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:text="+9" />
+
+            <Button
+                android:id="@+id/btEquipe2Mais12"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:text="+12" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btHistorico"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:text="Inf. Histórico" />
+
+        <Button
+            android:id="@+id/btInformarNomes"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:text="Inf. Nomes" />
+
+        <Button
+            android:id="@+id/btZerarHistorico"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:text="Zerar Histórico" />
+
+    </LinearLayout>
+
+</ScrollView>
