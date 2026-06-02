@@ -37,8 +37,9 @@ class HistoricoActivity : AppCompatActivity() {
 
         btVoltar = findViewById(R.id.btVoltar)
 
-        tvHistoricoEquipe1.text = "$nomeEquipe1: $vitoriasEquipe1 vitórias"
-        tvHistoricoEquipe2.text = "$nomeEquipe2: $vitoriasEquipe2 vitórias"
+        tvHistoricoEquipe1.text = "$nomeEquipe1: $vitoriasEquipe1 ${getString(R.string.vitorias)}"
+
+        tvHistoricoEquipe2.text = "$nomeEquipe2: $vitoriasEquipe2 ${getString(R.string.vitorias)}"
         btVoltar.setOnClickListener {
 
             finish()

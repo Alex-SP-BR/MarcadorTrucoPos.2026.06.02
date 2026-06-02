@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Truco Scoreboard</string>
+
+    <string name="equipe1">Team 1</string>
+    <string name="equipe2">Team 2</string>
+
+    <string name="historico">History</string>
+    <string name="informar_nomes">Set Names</string>
+    <string name="zerar_historico">Reset History</string>
+
+    <string name="voltar">Back</string>
+    <string name="confirmar">Confirm</string>
+
+    <string name="vitorias">wins</string>
+
+    <string name="nome_equipe_1">Team 1 Name</string>
+    <string name="nome_equipe_2">Team 2 Name</string>
+    <string name="inf_nomes">Set Names</string>
+    <string name="zerar_hist_rico">Reset History</string>
+    <string name="nome_da_equipe_1">Team 1 Name</string>
+    <string name="nome_da_equipe_2">Team 2 Name</string>
+    <string name="equipe_1_0_vit_rias">Team 1: 0 wins</string>
+    <string name="equipe_2_0_vit_rias">Team 2: 0 wins</string>
+</resources>
