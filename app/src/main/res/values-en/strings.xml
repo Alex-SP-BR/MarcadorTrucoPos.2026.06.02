@@ -22,4 +22,12 @@
     <string name="nome_da_equipe_2">Team 2 Name</string>
     <string name="equipe_1_0_vit_rias">Team 1: 0 wins</string>
     <string name="equipe_2_0_vit_rias">Team 2: 0 wins</string>
+
+    <string name="historico_zerado">History reset successfully!</string>
+
+    <string name="fim_partida">Game Over</string>
+
+    <string name="ok">OK</string>
+
+    <string name="equipe_venceu">%1$s won!</string>
 </resources>

@@ -6,7 +6,6 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -47,13 +46,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
 
         tvEquipe1 = findViewById(R.id.tvEquipe1)
         tvEquipe2 = findViewById(R.id.tvEquipe2)
@@ -209,7 +202,7 @@ class MainActivity : AppCompatActivity() {
 
             Toast.makeText(
                 this,
-                "Histórico zerado com sucesso!",
+                getString(R.string.historico_zerado),
                 Toast.LENGTH_SHORT
             ).show()
         }
@@ -223,9 +216,14 @@ class MainActivity : AppCompatActivity() {
             vitoriasEquipe1++
 
             AlertDialog.Builder(this)
-                .setTitle("Fim da partida")
-                .setMessage("${tvEquipe1.text} venceu!")
-                .setPositiveButton("OK", null)
+                .setTitle(getString(R.string.fim_partida))
+                .setMessage(
+                    getString(
+                        R.string.equipe_venceu,
+                        tvEquipe1.text.toString()
+                    )
+                )
+                .setPositiveButton(getString(R.string.ok), null)
                 .show()
 
             pontosEquipe1 = 0
@@ -240,9 +238,14 @@ class MainActivity : AppCompatActivity() {
             vitoriasEquipe2++
 
             AlertDialog.Builder(this)
-                .setTitle("Fim da partida")
-                .setMessage("${tvEquipe2.text} venceu!")
-                .setPositiveButton("OK", null)
+                .setTitle(getString(R.string.fim_partida))
+                .setMessage(
+                    getString(
+                        R.string.equipe_venceu,
+                        tvEquipe2.text.toString()
+                    )
+                )
+                .setPositiveButton(getString(R.string.ok), null)
                 .show()
 
             pontosEquipe1 = 0

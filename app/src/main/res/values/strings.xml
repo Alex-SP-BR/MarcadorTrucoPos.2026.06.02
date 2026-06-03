@@ -23,4 +23,12 @@
     <string name="equipe_2_0_vit_rias">Equipe 2: 0 vitórias</string>
     <string name="equipe_1_0_vit_rias">Equipe 1: 0 vitórias</string>
 
+    <string name="historico_zerado">Histórico zerado com sucesso!</string>
+
+    <string name="fim_partida">Fim da partida</string>
+
+    <string name="ok">OK</string>
+
+    <string name="equipe_venceu">%1$s venceu!</string>
+
 </resources>
