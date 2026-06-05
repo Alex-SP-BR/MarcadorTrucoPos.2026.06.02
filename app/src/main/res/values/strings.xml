@@ -30,5 +30,6 @@
     <string name="ok">OK</string>
 
     <string name="equipe_venceu">%1$s venceu!</string>
+    <string name="copyright">© Alex Cardoso Bento – 2026</string>
 
 </resources>
